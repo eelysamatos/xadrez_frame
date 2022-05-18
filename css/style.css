@@ -1,0 +1,70 @@
+.container{
+    
+    background-size: auto;
+}
+
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    color:rgb(41, 179, 60);
+    text-align: center;
+    position: relative;
+    font-weight: 300px;
+    
+}
+
+.tabela{
+  
+    margin-left: 15%;
+ 
+}
+
+.quadrado1{
+    border: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(31, 86, 100, 0.781);
+    margin: -3px;
+    position: relative;
+    display:inline-block ;
+}
+
+.quadrado2{
+    border: solid;
+    border-color: black;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(31, 178, 95, 0.692);
+    margin: -3px;
+    position: relative;
+    display:inline-block;
+}
+
+#cavalo {
+   background-image: url(../img/cavalo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    animation: cavalo 25s infinite ;
+    position: relative; 
+    z-index: 1;
+}
+@keyframes cavalo {
+    10%{top:0px; left:0px;} 
+    15%{top:200px; left:0px;}
+    20%{top:200px; left:100px;}
+
+    30%{top:200px; left:100px;} 
+    35%{top:200px; left:400px;}
+    40%{top:300px; left:400px;}
+
+    45%{top:400px; left:400px;} 
+    50%{top:400px; left:600px;}
+    55%{top:500px; left:600px;}
+
+    60%{top:700px; right:700px;} 
+    65%{top:700px; right:900px;}
+    70%{top:800px; right:900px;}
+}
